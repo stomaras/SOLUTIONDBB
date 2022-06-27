@@ -1,5 +1,4 @@
-﻿using Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,21 +6,15 @@ using System.Web.Mvc;
 
 namespace FinalApp.Areas.Customer.Controllers
 {
-    public class MovieController : Controller
+    public class DirectorController : Controller
     {
-        // GET: Customer/Movie
+        // GET: Customer/Director
         public ActionResult Index()
         {
             return View();
         }
 
         public ActionResult Details()
-        {
-            return View();
-        }
-
-        [ChildActionOnly]
-        public ActionResult DisplayMovieCards(List<Movie> movies)
         {
             return View();
         }

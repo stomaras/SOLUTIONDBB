@@ -183,6 +183,8 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Customer\Controllers\ActorController.cs" />
+    <Compile Include="Areas\Customer\Controllers\DirectorController.cs" />
     <Compile Include="Areas\Customer\Controllers\HomeController.cs" />
     <Compile Include="Areas\Customer\Controllers\MovieController.cs" />
     <Compile Include="Areas\Customer\CustomerAreaRegistration.cs" />
@@ -363,6 +365,11 @@
     <Content Include="Areas\Customer\Views\Shared\Components\_Header.cshtml" />
     <Content Include="Areas\Customer\Views\Shared\Components\_Footer.cshtml" />
     <Content Include="Areas\Customer\Views\Shared\Components\_JSLibraries.cshtml" />
+    <Content Include="Areas\Customer\Views\Director\Index.cshtml" />
+    <Content Include="Areas\Customer\Views\Director\Details.cshtml" />
+    <Content Include="Areas\Customer\Views\Actor\Details.cshtml" />
+    <Content Include="Areas\Customer\Views\Actor\Index.cshtml" />
+    <Content Include="Areas\Customer\Views\Movie\DisplayMovieCards.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
